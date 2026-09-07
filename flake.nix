@@ -5,12 +5,12 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     flake-lib = {
-      url = "github:jgus/flake-lib/v1";
+      url = "github:jgus-org/flake-lib/v1";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };
     huggingface-hub = {
-      url = "github:jgus/huggingface-hub-flake";
+      url = "github:jgus-org/huggingface-hub-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
@@ -62,7 +62,7 @@
                 {
                   reqName = "huggingface-hub";
                   pypiName = "huggingface-hub";
-                  flakeRepo = "jgus/huggingface-hub-flake";
+                  flakeRepo = "jgus-org/huggingface-hub-flake";
                   mode = "resolve";
                 }
               ];
