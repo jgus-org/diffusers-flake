@@ -115,11 +115,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789480679,
-        "narHash": "sha256-8WfakBZ8HXepay/BO8UsoLitKTNVk4jrKQk2YUaJieU=",
+        "lastModified": 1789651966,
+        "narHash": "sha256-czVtW6z7J2e7voVN1s4Cgty0TlJh+AIPudoQWu0fcfk=",
         "owner": "jgus-org",
         "repo": "huggingface-hub-flake",
-        "rev": "944e54df319f673abc3abc296b4c493a718ebe2d",
+        "rev": "60fc4c3f38f8dcadf41740c19e60ff20d7d2f9a9",
         "type": "github"
       },
       "original": {
